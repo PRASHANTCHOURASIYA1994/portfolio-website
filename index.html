@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prashant - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+        border: 5px solid rgb(153, 153, 226);
+        border-bottom: none;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.21rem;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+      }
+
+      .firstSection > div {
+        width: 40%;
+      }
+
+      .leftSection {
+        font-size: 2.5rem;
+        margin-bottom: 100px;
+        margin-left: 70px;
+      }
+
+      .rightSection {
+        width: 30px;
+      }
+      .rightSection img {
+        padding: 0;
+        width: 80%;
+        margin-top: 15px;
+      }
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+
+      .workexperience-heading {
+        display: flex;
+      }
+
+      .text-gray {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 20px 0 0 30px;
+        color: rgb(170, 107, 228);
+      }
+
+      main hr {
+        border: 0;
+        background: rgb(170, 107, 228);
+        height: 5px;
+        margin: 30px 0;
+      }
+
+      #element {
+        color: rgb(170, 107, 228);
+      }
+      .secondSection {
+        max-width: 81vw;
+        margin: auto;
+      }
+
+      main {
+        border: 5px solid rgb(153, 153, 226);
+      }
+      .secondSection {
+        height: 80vh;
+      }
+      .secondSection h1 {
+        text-decoration: underline;
+        text-decoration-color: rgb(153, 153, 226);
+        text-underline-offset: 10px;
+        font-size: 2.5rem;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 75.4vw;
+        height: 5px;
+        margin: 70px 0 56px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical:first-child {
+        margin-left: 0;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 5px;
+        background: white;
+        margin: 0 118px;
+      }
+
+      .h {
+        width: 25px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+
+      .f {
+        width: 40px;
+        position: relative;
+        top: -40px;
+        left: -15px;
+      }
+
+      .i {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+
+      .t {
+        width: 30px;
+        position: relative;
+        top: -35px;
+        left: -9px;
+      }
+
+      .y {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 96px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+
+      footer {
+        border: 5px solid rgb(153, 153, 226);
+        border-top: none;
+        background-color: #00031a;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 25px 0;
+      }
+
+      footer ul {
+        list-style: none;
+      }
+
+      footer ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer > div {
+        margin: 50px 0px 0 50px;
+        width: 200px;
+      }
+      footer .footer-rights {
+        background-color: rgb(18, 18, 62);
+        text-align: center;
+        color: gray;
+        padding: 20px 0 15px 0;
+        border-top: 5px solid rgb(153, 153, 226);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Prashant's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Prashant</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <div class="workexperience-heading">
+          <h1>Work Experience :-</h1>
+          <p class="text-gray">What I have done so far.</p>
+        </div>
+
+        <div class="box">
+          <div class="vertical">
+            <img src="h.png" alt="" class="h" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              quisquam amet, molestiae provident doloribus debitis rerum dolorem
+              culpa dolores ab accusantium temporibus illo?
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="f.png" alt="" class="f" />
+            <div class="vertical-title">Node.js Developer (2012-2014)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              quisquam amet, molestiae provident doloribus debitis rerum dolorem
+              culpa dolores ab accusantium temporibus illo?
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="i.png" alt="" class="i" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              quisquam amet, molestiae provident doloribus debitis rerum dolorem
+              culpa dolores ab accusantium temporibus illo?
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="t.png" alt="" class="t" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              quisquam amet, molestiae provident doloribus debitis rerum dolorem
+              culpa dolores ab accusantium temporibus illo?
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="y.png" alt="" class="y" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              quisquam amet, molestiae provident doloribus debitis rerum dolorem
+              culpa dolores ab accusantium temporibus illo?
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Prashant's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-fifth">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-rights">
+        www.prashant'sportfolio.com | &copy; All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Graphic Designer", "&amp;Freelancer."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
